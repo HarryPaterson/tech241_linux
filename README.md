@@ -116,6 +116,6 @@ Numeric notation: chmod g-wx testfile.txt
 Use numeric values to give read + write access to User, read access to Group, and no access to Other:
 
 Numeric notation: chmod 640 testfile.txt
-Note: The u represents User, g represents Group, o represents Other, and a represents all (User, Group, and Other) in symbolic notation. The permissions are represented by r for read, w for write, and x for execute. The numeric notation follows the format: owner permissions, group permissions, other permissions, where each permission is assigned a numeric value (read = 4, write = 2, execute = 1), and the values are summed up to represent the permissions.
+Note: The u represents User, g represents Group, o represents Other, and a represents all (User, Group, and Other) in symbolic notation. The permissions are represented by r for read, w for write, and x for execute. The numeric notation follows the format: owner permissions, group permissions, other permissions, where each permission is assigned a numeric value (read = 4, write = 2, execute = 1), and the values are summed up to represent the permissions
 
 
