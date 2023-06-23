@@ -104,6 +104,6 @@
 - `~`: Tilde symbol representing the user's home directory.
 - `printenv`: Command used to print the current environment variables.
 - `echo $MYNAME`: Command used to print the value of the "MYNAME" environment variable.
-- `export MYNAME=mushahid`: Command used to set the value of the "MYNAME" environment variable to "mushahid".
+- `export MYNAME=HARRY`: Command used to set the value of the "MYNAME" environment variable to "HARRY".
 - `.bashrc`: The Bash configuration file located in the user's home directory.
 - `source .bashrc`: Command used to reload the Bash configuration file.
