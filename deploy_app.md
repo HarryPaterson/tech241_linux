@@ -48,7 +48,7 @@ node app.js
 
 8. **Configure Network Security Group**: In the Azure portal, configure the network security group (NSG) associated with your VM to allow inbound traffic on the required port for your application. Create a rule to allow incoming traffic on the specific port your application listens to. In our case , this is 3000
 
-9. **Cancel or Kill the Application**: To stop the running application, you can use `Ctrl+C` in the terminal where the application is running. Alternatively, if you are using PM2, you can stop the application using the following command:
+9. **Cancel or Kill the Application**: To stop the running application, you can use `Ctrl+C` in the terminal where the application is running.
 ```
 Ctrl^C or kill -9 PID
 ```
