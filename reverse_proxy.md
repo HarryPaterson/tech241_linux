@@ -55,29 +55,10 @@ Diagram:
    ```
    sudo nano /etc/nginx/sites-available/
    ```
-   This will open a text editor. Add the following configuration to the file:
+   
    ```
-   server {
-       listen 80;
-       server_name 4.234.113.95;
-
        location / {
            proxy_pass http://localhost:3000;
-           proxy_http_version 1.1;
-           proxy_set_header Upgrade $http_upgrade;
-           proxy_set_header Connection 'upgrade';
-           proxy_set_header Host $host;
-           proxy_cache_bypass $http_upgrade;
-       }
-
-       location /posts {
-           proxy_pass http://localhost:3000/posts;
-           proxy_http_version 1.1;
-           proxy_set_header Upgrade $http_upgrade;
-           proxy_set_header Connection 'upgrade';
-           proxy_set_header Host $host;
-           proxy_cache_bypass $http_upgrade;
-       }
    }
    ```
 
