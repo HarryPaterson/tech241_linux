@@ -13,29 +13,29 @@ sudo apt upgrade -y`
 ```
 
 
-2. **Install Node.js**: Inside the VM, you need to install Node.js to run your application. You can use the following commands to install Node.js version 12.x:
+2. **Install Node.js**: 
 ```
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt install nodejs -y
 ```
 
-3. **Install PM2**: PM2 is a process manager for Node.js applications. It helps in managing and running your application in the background. Install PM2 globally using the following command:
+3. **Install PM2**: PM2 is a process manager for Node.js applications.
 ```
 sudo npm install pm2 -g
 ```
 
-4. **Navigate to the App Folder**: Use the `cd` command to navigate to the folder where your application is located:
+4. **Navigate to the App Folder**:  
 ```
 cd /path/to/app/folder
 cd app/app
 ```
 
-5. **Install Application Dependencies**: Use `npm install` to install the dependencies required by your application:
+5. **Install Application Dependencies**: 
 ```
 npm install
 ```
 
-6. **Start the Application**: Use `npm start` or `node app.js` to start your application:
+6. **Start the Application**: 
 ```
 npm start
 ```
@@ -44,9 +44,9 @@ npm start
 node app.js
 ```
 
-8. **Configure Network Security Group**: In the Azure portal, configure the network security group (NSG) associated with your VM to allow inbound traffic on the required port for your application. Create a rule to allow incoming traffic on the specific port your application listens to. In our case , this is 3000
+8. **Configure Network Security Group**: Create Custom Inbound port rule to allow TCP on port 3000
 
-9. **Cancel or Kill the Application**: To stop the running application, you can use `Ctrl+C` in the terminal where the application is running.
+9. **Cancel or Kill the Application**: 
 ```
 Ctrl^C or kill -9 PID
 ```
