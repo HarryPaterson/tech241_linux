@@ -5,9 +5,7 @@
 * Deploy Database
 
 ### Deploy App
-To run an application on Azure in Linux, you can follow these steps:
 
-This can be done using the terminal or an SSH client. The exact command will depend on your operating system and SSH client.
 1. Update and upgrade first 
 ```
 sudo apt update -y
