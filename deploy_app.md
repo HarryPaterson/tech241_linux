@@ -75,7 +75,6 @@ sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org
 ```
 sudo nano /etc/mongod.conf
 bindIP 0.0.0.0
-```
 0.0.0.0 is a security risk but is fine for testing purposes
 
 5. Start Service and check status
