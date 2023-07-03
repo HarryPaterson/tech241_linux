@@ -61,6 +61,7 @@ Diagram:
            proxy_pass http://localhost:3000;
    }
    ```
+   ![Nginx Config File](https://i.imgur.com/gyOufIU.png)
 
 2. Enable the site by creating a symbolic link in the `sites-enabled` directory:
    ```
@@ -71,6 +72,7 @@ Diagram:
    ```
    sudo nginx -t
    ```
+   ![Successful Config Test](https://i.imgur.com/y1cP9eD.pngcd)
 
 4. Restart Nginx to apply the changes:
    ```
