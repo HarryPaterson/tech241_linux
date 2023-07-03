@@ -78,3 +78,12 @@ Diagram:
    ```
    sudo systemctl restart nginx
    ```
+
+#### Blocker Notes:
+* Make sure that the port 27017 is Custom
+* Ensure the bind ip has changed to 0.0.0.0
+* Make sure all the ip addresses match the azure ip addresses
+* Remember to cd into the correct directories
+* Don't forget the -i in the sed command
+* Start the DB first and then the app
+* The reverse proxy server has localhost in it not the ip
